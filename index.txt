@@ -1,0 +1,61 @@
+HABITABLE PLANETS SUMMARY
+Total Found: 8
+Generated on: 2025-12-25T03:26:22.012Z
+========================================
+
+Planet: Kepler-1652 b
+  - Disposition: CONFIRMED
+  - Orbital Period: 38.097071700 days
+  - Insolation Flux: 0.81 (Earth flux)
+  - Planetary Radius: 1.58 (Earth radii)
+  - Equilibrium Temp: 242.0 K
+----------------------------------------
+Planet: Kepler-1410 b
+  - Disposition: CONFIRMED
+  - Orbital Period: 60.866097400 days
+  - Insolation Flux: 0.84 (Earth flux)
+  - Planetary Radius: 1.39 (Earth radii)
+  - Equilibrium Temp: 244.0 K
+----------------------------------------
+Planet: Kepler-296 A f
+  - Disposition: CONFIRMED
+  - Orbital Period: 63.335471900 days
+  - Insolation Flux: 0.39 (Earth flux)
+  - Planetary Radius: 1.18 (Earth radii)
+  - Equilibrium Temp: 202.0 K
+----------------------------------------
+Planet: Kepler-442 b
+  - Disposition: CONFIRMED
+  - Orbital Period: 112.303136000 days
+  - Insolation Flux: 0.79 (Earth flux)
+  - Planetary Radius: 1.30 (Earth radii)
+  - Equilibrium Temp: 241.0 K
+----------------------------------------
+Planet: Kepler-296 A e
+  - Disposition: CONFIRMED
+  - Orbital Period: 34.142050600 days
+  - Insolation Flux: 0.89 (Earth flux)
+  - Planetary Radius: 1.06 (Earth radii)
+  - Equilibrium Temp: 248.0 K
+----------------------------------------
+Planet: Kepler-1649 b
+  - Disposition: CONFIRMED
+  - Orbital Period: 8.689107640 days
+  - Insolation Flux: 0.47 (Earth flux)
+  - Planetary Radius: 0.49 (Earth radii)
+  - Equilibrium Temp: 211.0 K
+----------------------------------------
+Planet: Kepler-62 f
+  - Disposition: CONFIRMED
+  - Orbital Period: 267.282521000 days
+  - Insolation Flux: 0.44 (Earth flux)
+  - Planetary Radius: 1.43 (Earth radii)
+  - Equilibrium Temp: 207.0 K
+----------------------------------------
+Planet: Kepler-452 b
+  - Disposition: CONFIRMED
+  - Orbital Period: 384.847556000 days
+  - Insolation Flux: 0.56 (Earth flux)
+  - Planetary Radius: 1.09 (Earth radii)
+  - Equilibrium Temp: 220.0 K
+----------------------------------------
