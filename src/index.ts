@@ -5,7 +5,16 @@ interface Planet {
   [key: string]: string
 }
 
-const results: Planet[] = []
+const habitablePlanets: Planet[] = []
+
+function isHabitablePlanet(planet: Planet): boolean {
+  return (
+    planet['koi_disposition'] === 'CONFIRMED' &&
+    parseFloat(planet['koi_insol'] || '') > 0.36 &&
+    parseFloat(planet['koi_insol'] || '') < 1.11 &&
+    parseFloat(planet['koi_prad'] || '') < 1.6
+  )
+}
 
 fs.createReadStream('kepler_data.csv')
   .pipe(
@@ -15,12 +24,14 @@ fs.createReadStream('kepler_data.csv')
     })
   )
   .on('data', (data: Planet) => {
-    results.push(data)
+    if (isHabitablePlanet(data)) {
+      habitablePlanets.push(data)
+    }
   })
   .on('error', (err) => {
     console.log(err)
   })
   .on('end', () => {
-    console.log(results)
+    console.log(`The amount of habitable planets is: ${habitablePlanets.length}`)
     console.log('done')
   })
